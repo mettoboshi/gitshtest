@@ -3,9 +3,11 @@
 git co master
 git pull
 
-git co test
+git checkout test
 git rebase master
 
 git push -f
+
+git checkout master
 
 echo End
